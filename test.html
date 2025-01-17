@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap.css" />
+  </head>
+  <body>
+    <button
+      class="btn btn-secondary dropdown-toggle"
+      data-bs-toggle="dropdown"
+      data-bs-target="#dd"
+    >
+      Toggle
+    </button>
+    <div class="dropdown-menu dropdown bg-secondary" id="dd">
+      <a href="" class="dropdown-item">HOME</a>
+    </div>
+
+    <button
+      type="button"
+      class="btn btn-primary dropdown-toggle"
+      data-bs-toggle="collapse"
+      data-bs-target="#drop"
+    >
+      Sony
+    </button>
+    <div class="dropdown-menu collapse" id="drop">
+      <a class="dropdown-item" href="#">Tablet</a>
+      <a class="dropdown-item" href="#">Smartphone</a>
+    </div>
+
+    <div class="nav bg-warning">
+      <button
+        class="navbar-toggler"
+        data-bs-target="#nav"
+        data-bs-toggle="collapse"
+      >
+        <span class="navbar-toggler-icon border-1"></span>
+      </button>
+    </div>
+    <div class="collapse navbar-collapse navbar-expand-lg bg-warning" id="nav">
+      <ul>
+        <li class="nav-item list-unstyled">Home</li>
+        <li class="nav-item list-unstyled">Home</li>
+        <li class="nav-item list-unstyled">Home</li>
+      </ul>
+    </div>
+
+    <button
+      class="btn btn-dark text-light"
+      data-bs-toggle="modal"
+      data-bs-target="#md"
+    >
+      modal
+    </button>
+    <div class="modal fade" id="md">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-body">
+              <div class="modal-header">I'm a modal</div>
+              <div class="modal-body">
+                <p>lorem</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bootstrap.min.js"></script>
+  </body>
+</html>
